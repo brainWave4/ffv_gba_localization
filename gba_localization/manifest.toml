@@ -1,7 +1,7 @@
 format_version = 1
-id = "ffv.gba-translations"
-version = "0.1.0"
-name = "GBA Translations"
+id = "ffv.localization-gba"
+version = "0.2.0"
+name = "GBA Localization"
 author = "kindle4Light"
 description = "Translate texts from Japanese to the following languages: English, German, French, Italian, and Spanish. It uses the GBA ROM as reference."
 resolver = "declarative"
@@ -12,17 +12,15 @@ game_id = "ffv-jp"
 rom_sha256 = "c6858d5c02894a6cc71f4dd452c7f288b319d1952ca56fdb185b4bf5e26244a2"
 
 [[feature]]
-id = "lang"
-name = "Language"
+id = "localization"
+name = "Text Localization"
 description = "Select the text language applied at runtime."
-group = "Languages"
+group = "Localization"
 
 [[option]]
-feature = "lang"
+feature = "localization"
 id = "lang-opt"
 label = "Language"
-description = "Runtime text language."
-group = "Languages"
 type = "choice"
 default = "en"
 
@@ -47,7 +45,7 @@ value = "es"
 label = "Spanish"
 
 [[resource]]
-feature = "lang"
+feature = "localization"
 id = "gba-rom"
 label = "Select the FFV PAL GBA Rom"
 format = "file"
