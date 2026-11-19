@@ -49,8 +49,8 @@ label = "Spanish"
 [[resource]]
 feature = "lang"
 id = "gba-rom"
-label = "GBA Rom"
+label = "Select the FFV PAL GBA Rom"
 format = "file"
 file_patterns = "*.gba"
-file_description = "Link to FFV Pal GBA Rom"
+file_description = "GBA Rom (*.gba)"
 required = true
