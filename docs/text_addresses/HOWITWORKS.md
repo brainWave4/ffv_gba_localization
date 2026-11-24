@@ -10,7 +10,7 @@ However, there are at least more than one way to draw each of them. This is beca
 
 ## Bank C0 - Field
 ### Big Fonts
-Used for Dialogs
+Used for Dialogs. Loading Dialog Text is addressed at `C0/8427`.
 
 ## Bank C1 - Battle Graphics
 ### Big Fonts
