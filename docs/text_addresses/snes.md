@@ -5,18 +5,22 @@
 |$F987|$FA9C|Pointers|Menu Texts (2 bytes * 139 items)
 |$FA9D|$FE89|Text|Menu Texts (139 items)
 
-# Bank C7 to D0 - Game Data
+# Bank C7 to CB - Dialogs
 |From|To|Type|Content
 |----|----|----|---
 |C8/2220|C8/331F|Pointers|Speech (2 bytes * 2160 items)
 |CA/0000|CA/FFFF|Text|Speech
-|D0/5C00|10/67FF|Text|Monster Names (8 bytes * 384 items)
-|D0/7000|D7/71FF|Pointers|Location Names (2 bytes * 164 items)
-|D0/7200|D0/77FF|Text|Location Names
-|D0/DEFA|D0/DF43|Text|Mr. Clio's Unknown Cave
-|D0/E340|D0/E41A|Text|Crystal Prophecy
-|D0/F000|D0/F1D3|Pointers|Battle Speech (2 bytes * 234 items)
-|D0/F1D4|D0/FEBB|Text|Battle Speech (234 items)
+
+# Bank D0 - Field & Battle Data
+|From|To|Type|Content
+|----|----|----|---
+|$5C00|$67FF|Text|Monster Names (8 bytes * 384 items)
+|$7000|$71FF|Pointers|Location Names (2 bytes * 164 items)
+|$7200|$77FF|Text|Location Names
+|$DEFA|$DF43|Text|Mr. Clio's Unknown Cave
+|$E340|$E41A|Text|Crystal Prophecy
+|$F000|$F1D3|Pointers|Battle Speech (2 bytes * 234 items)
+|$F1D4|$FEBB|Text|Battle Speech (234 items)
 
 # Bank D1 - Menu Data
 |From|To|Type|Content
