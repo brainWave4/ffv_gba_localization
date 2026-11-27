@@ -10,8 +10,10 @@
 # Bank C3 - Cutscenes
 |From|To|Type|Content
 |----|----|----|---
+|$33F6|$362A|Compressed|Staff Font(Type 02 Headed Compression from 4bpp)
 |$362B|$383B|Compressed|Staff (Type 02 Headed Compression from Text)
 |$7B92|$7E4A|Compressed|Credits (Type 02 Headed Compression from Text)
+|$EB00|$FDFF|1bpp|Big Fonts for Kana
 
 # Bank C7 to CB - Dialogs
 |From|To|Type|Content
@@ -50,3 +52,10 @@
 |$6700|$6AB0|Text|Special Abilities Names (9 bytes * 105 items)
 |$7140|$7249|Pointers|Job/Ability Descriptions
 |$724A|$7F9F|Text|Job/Ability Descriptions
+|$F000|$FFFF|2bpp|Small Fonts
+
+# Bank DB
+
+|From|To|Type|Content
+|----|----|----|---
+|$D000|$F7FF|1bpp|Big Fonts for Kana

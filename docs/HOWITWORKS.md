@@ -5,6 +5,7 @@ When it comes to changing font by language, there are three kinds to consider:
 * Big Fonts for Dialogs
 * Small Fonts for Menu
 * "Miss" in Battle.
+* Credit Fonts
 
 However, there are at least more than one way to draw each of them. This is because each instructions are contained within their own banks.
 
