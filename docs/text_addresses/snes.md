@@ -1,7 +1,9 @@
 # Bank C0 - Field
 |From|To|Type|Content
 |----|----|----|---
+|$D340|$D37F|4bpp|Window for Yes/No option as well as Gil Count
 |$E500|$E5FF|Text|Key Items
+|$F410|$F459|Text|Main Character Naming Screen
 |$F987|$FA9C|Pointers|Menu Texts (2 bytes * 139 items)
 |$FA9D|$FE89|Text|Menu Texts (139 items)
 
