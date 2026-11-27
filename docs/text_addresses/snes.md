@@ -7,6 +7,12 @@
 |$F987|$FA9C|Pointers|Menu Texts (2 bytes * 139 items)
 |$FA9D|$FE89|Text|Menu Texts (139 items)
 
+# Bank C3 - Cutscenes
+|From|To|Type|Content
+|----|----|----|---
+|$362B|$383B|Compressed|Staff (Type 02 Headed Compression from Text)
+|$7B92|$7E4A|Compressed|Credits (Type 02 Headed Compression from Text)
+
 # Bank C7 to CB - Dialogs
 |From|To|Type|Content
 |----|----|----|---
