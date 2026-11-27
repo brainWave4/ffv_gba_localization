@@ -12,10 +12,12 @@ However, there are at least more than one way to draw each of them. This is beca
 ### Big Fonts
 Used for Dialogs. Loading Dialog Text is addressed at `C0/8427`.
 
+Store value from `06` to `AB`, and load a value from address `Dlg`, relative to value in `B1`, to be compared. Branch to `C0/8451` if value is `#$FF`, Jump to `C0/8508` if value is greater than or equals `#$CD`, or Jump to `C0/8451` if value is greater than or equals `#$20`.
+
 ## Bank C1 - Battle Graphics
 ### Big Fonts
 The instruction for drawing large fonts is addressed at `C1/2971`. It is used for the upper dialog window, for scripted events or announcing attacks.
 
 The source address is stored from `BCA0` to `B8`, while the destination address is stored from `BCA2` to `BA`.
 
-For every byte of string (next is called in `C1/299A`), it is gotten from the address stored in `B8` to be checked what kind of character it is. When the byte reads `#20`, it has a special effect for the next byte. The loop ends when the byte reads `#01` or `#00`. Otherwise, draw kana.
+For every byte of string (next is called in `C1/299A`), it is gotten from the address stored in `B8` to be checked what kind of character it is. When the byte reads `#$20`, it has a special effect for the next byte. The loop ends when the byte reads `#$01` or `#$00`. Otherwise, draw kana.
